@@ -5,7 +5,7 @@ This repository contains work of some of the labs during Autumn 2016 in "Databas
 
 
 | Lab Number | Type |  Content |
-|:------:|:------:|------|
+|:------:|------|------|
 | 3 | In-Class | JDBC introduction |
 |3|  Take-Home| JDBC recursive, transitive closure based on procedural SQL|
 |4| In-Class| Servlet Introduction|
