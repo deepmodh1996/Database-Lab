@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Add Course"
+        android:textSize="40dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Insert course detail as :\n Course Id, Section Id, Title, Deptartment, Credits"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"/>
+
+
+    <TextView
+        android:id="@+id/outputAddCourses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CC0033"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextViewAddCourses"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="Write Name of Course Here">
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/buttonAddCourses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add course"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/backButtonAddCourses"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

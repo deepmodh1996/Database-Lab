@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Registration App"
+        android:textSize="40dp"/>
+
+
+
+    <EditText android:id="@+id/urlEdit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:hint=" Write IP address"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Formate :\n If 'login servlet' is located at IP address\n  http://10.196.8.208:8080/ProjectBackend/login\n then write above http://10.196.8.208:8080/ProjectBackend"
+        android:textSize="12dp"
+        android:layout_marginTop="10dp"/>
+
+
+    <Button
+        android:id="@+id/urlAddButton"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="OK"
+        android:layout_marginTop="15dp"/>
+
+
+</LinearLayout>

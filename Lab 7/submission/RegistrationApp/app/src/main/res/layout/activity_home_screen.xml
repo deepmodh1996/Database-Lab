@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="List of Registered Courses"
+        android:textSize="30dp"/>
+
+    <TextView
+        android:id="@+id/outputHomeScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#CC0033"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Registered Courses are shown as :\n Course Id, Section Id, Title, Deptartment, Credits, X"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"/>
+
+    <ListView
+        android:id="@+id/listViewHomeScreen"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:drawSelectorOnTop="false" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text=" Click on course or 'X' at end of course to Drop the course"
+        android:textSize="15dp"
+        android:layout_marginTop="12dp"/>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp">
+        <Button
+            android:id="@+id/addCoursesButtonHomeScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Add course"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/logoutButtonHomeScreen"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Log out"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+</LinearLayout>
