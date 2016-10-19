@@ -14,3 +14,4 @@ This repository contains work of some of the labs during Autumn 2016 in "Databas
 |5| Take-Home| Add extra features in servet using JQuery, Javascript, AJAX, CSS |
 |6| Take-Home| Spark Apache |
 |7| Take-Home| Android App Development|
+|8| In-Class| Query Plans in PostgreSQL|
